@@ -93,17 +93,22 @@ bool callback_key_down(Viewer& viewer, unsigned char key, int modifiers) {
 }
 
 int main(int argc, char *argv[]) {
-    if (argc != 2) {
-        cout << "Usage ex1_bin mesh.obj" << endl;
-        exit(0);
-    }
-
-    // Read mesh
-    igl::readOFF(argv[1],V,F);
-
     // Show the mesh
     Viewer viewer;
     viewer.callback_key_down = callback_key_down;
+    
+    if (argc == 2)
+    {
+      // Read mesh
+      igl::readOFF(argv[1],V,F);
+      
+    }
+    else
+    {
+      // Read mesh
+      igl::readOFF("../data/bunny.off",V,F);
+    }
+
     callback_key_down(viewer, '1', 0);
 
     viewer.launch();

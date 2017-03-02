@@ -95,4 +95,4 @@ git commit -m "Solution assignment X"
 git push
 ```
 
-**The solution must be submitted until 23:59 on the day of the submision date. Late submissions will not be accepted.**
+**The solutions must be submitted before the corresponding demo session. Late submissions will not be accepted.**

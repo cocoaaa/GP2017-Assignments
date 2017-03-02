@@ -15,10 +15,10 @@ Legi-Nr: 'Your legi number'
 Copying code (either from other students or from external sources) is strictly prohibited! We will be using automatic anti-plagiarism tools, and any violation of this rule will lead to expulsion from the class. Late submissions will generally not be accepted. In case of serious illness or emergency, please notify Roi or Christian and provide a relevant medical certificate.
 
 ### Provided Libraries
-For each assignment, you will use the geometry processing library [libigl](https://github.com/libigl/libigl), which includes implementations of many of the algorithms presented in class. The libigl library includes a set of tutorials, an introduction which can be found [online](http://libigl.github.io/libigl/) or directly in the folder 'libigl/tutorial/tutorial.html'. You are advised to look over the relevant tutorials before starting the implementation for the assignments; you are also encouraged to examine the source code of all the library functions that you use in your code to see how they were implemented. To simplify compilation, we will use libigl as a header-only library (note that, if you prefer, you can compile it into a set of static libraries for faster builds at your own risk (this can be brittle on some platforms). We already included libigl as a git submodule in the course assignment repository [https://github.com/eth-igl/GP2017-Assigments.git](https://github.com/eth-igl/GP2017-Assigments.git) and you don't need to download it yourself. All further dependencies of libigl (like Eigen) are included as submodules in the directory 'libigl/external/' No libraries apart from those are permitted unless stated otherwise.
+For each assignment, you will use the geometry processing library [libigl](https://github.com/libigl/libigl), which includes implementations of many of the algorithms presented in class. The libigl library includes a set of tutorials, an introduction which can be found [online](http://libigl.github.io/libigl/) or directly in the folder 'libigl/tutorial/tutorial.html'. You are advised to look over the relevant tutorials before starting the implementation for the assignments; you are also encouraged to examine the source code of all the library functions that you use in your code to see how they were implemented. To simplify compilation, we will use libigl as a header-only library (note that, if you prefer, you can compile it into a set of static libraries for faster builds at your own risk (this can be brittle on some platforms). We already included libigl as a git submodule in the course assignment repository [https://github.com/eth-igl/GP2017-Assignments.git](https://github.com/eth-igl/GP2017-Assignments.git) and you don't need to download it yourself. All further dependencies of libigl (like Eigen) are included as submodules in the directory 'libigl/external/' No libraries apart from those are permitted unless stated otherwise.
 
 ### Installing Git and CMAKE
-Before we can begin, you must have Git running, a distributed revision control system which you need to handin your assigments as well as keeping track of your code changes. We refer you to the online [Pro Git book](https://git-scm.com/book/en/v2) for more information. There you will also find [instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git]) on how to to install it. On windows we suggest using [git for windows](https://git-for-windows.github.io/).
+Before we can begin, you must have Git running, a distributed revision control system which you need to handin your assignments as well as keeping track of your code changes. We refer you to the online [Pro Git book](https://git-scm.com/book/en/v2) for more information. There you will also find [instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git]) on how to to install it. On windows we suggest using [git for windows](https://git-for-windows.github.io/).
 
 CMake is the system libigl uses for cross-platform builds. If you are using Linux or macOS, I recommend installing it with a package manager instead of the CMake download page. E.g. on Debian/Ubuntu:
 ```
@@ -31,8 +31,8 @@ sudo port install cmake.
 On Windows you can download it from:
 [https://cmake.org/download/](https://cmake.org/download/)
 
-### Cloning the Assigment Repository
-Before you are able to clone your private assigment repository, you need to have a active [Github](https://github.com/) account. Then you can create your own private online repository by following this link: https://classroom.github.com/assignment-invitations/230fae0409c8c597b4e843fbe1819095
+### Cloning the Assignment Repository
+Before you are able to clone your private assignment repository, you need to have a active [Github](https://github.com/) account. Then you can create your own private online repository by following this link: https://classroom.github.com/assignment-invitations/230fae0409c8c597b4e843fbe1819095
 
 In the next step you need to clone it to your local harddrive
 ```
@@ -44,7 +44,7 @@ Further you need to add the base assignment repository as a remote:
 ```
 git remote add base https://github.com/eth-igl/GP2017-Assignments.git
 ```
-Now you should have your local clone of the assigment repository ready. Have a look at the new repository folder and open the 'README.md'. It contains the text you are just reading. Please fill in your name and student number at the top of this file and save. Then we want stage and commit this changed file:
+Now you should have your local clone of the assignment repository ready. Have a look at the new repository folder and open the 'README.md'. It contains the text you are just reading. Please fill in your name and student number at the top of this file and save. Then we want stage and commit this changed file:
 ```
 git add README.md
 git commit -m "Adjust README.md"
@@ -78,7 +78,7 @@ In general, you should use Git to commit your edits as often as possible. This w
 
 Every new assignment needs to be pulled from the base repository:
 ```
-git pull igl master
+git pull base master
 ```
 
 Every submission must build on Linux before it can be graded/considered complete. To check this, you will use Travis-CI, a tool for automatically rebuilding your code each time you push it to GitHub.

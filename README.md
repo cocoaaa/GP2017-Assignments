@@ -61,7 +61,7 @@ cd assignment1; mkdir build
 ```
 Use CMake to generate the Makefiles needed for compilation inside the build/ directory:
 ```
-cd build; cmake -DCMAKE BUILD TYPE=Release ../
+cd build; cmake -DCMAKE_BUILD_TYPE=Release ../
 ```
 On windows use the CMAKE gui with the buttons Configure and Generate.
 

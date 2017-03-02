@@ -7,7 +7,7 @@ Legi-Nr: 'Your legi number'
 
 ## Assignments Overview
 
-[Assignment 1](assignment1/README.md) (Deadline: 17.03.217 23:59)  
+[Assignment 1](assignment1/README.md) (Deadline: 16.03.217 23:59)  
 
 ## General Rules and Instructions
 
@@ -42,7 +42,7 @@ git clone --recursive https://github.com/eth-igl/gp17-'Your_Git_Username'.git
 
 Further you need to add the base assignment repository as a remote:
 ```
-git remote add base https://github.com/eth-igl/GP2017-Assigments.git
+git remote add base https://github.com/eth-igl/GP2017-Assignments.git
 ```
 Now you should have your local clone of the assigment repository ready. Have a look at the new repository folder and open the 'README.md'. It contains the text you are just reading. Please fill in your name and student number at the top of this file and save. Then we want stage and commit this changed file:
 ```

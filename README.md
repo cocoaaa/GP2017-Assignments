@@ -8,7 +8,6 @@ Legi-Nr: 'Your legi number'
 ## Assignments Overview
 
 [Assignment 1](assignment1/README.md) (Deadline: 17.03.217 23:59)  
-[Assignment 2](assignment2/README.md)
 
 ## General Rules and Instructions
 
@@ -33,7 +32,7 @@ On Windows you can download it from:
 [https://cmake.org/download/](https://cmake.org/download/)
 
 ### Cloning the Assigment Repository
-Before you are able to clone your private assigment repository, you need to have a active [Github](https://github.com/) account. Then you can create your own private online repository by following this link: XXX
+Before you are able to clone your private assigment repository, you need to have a active [Github](https://github.com/) account. Then you can create your own private online repository by following this link: https://classroom.github.com/assignment-invitations/230fae0409c8c597b4e843fbe1819095
 
 In the next step you need to clone it to your local harddrive
 ```

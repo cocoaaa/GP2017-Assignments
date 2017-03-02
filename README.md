@@ -40,11 +40,12 @@ git clone --recursive https://github.com/eth-igl/gp17-'Your_Git_Username'.git
 ```
 'Your_Git_Username' needs to be replaced accordingly. This can take a moment.
 
-Further you need to add the base assignment repository as a remote:
+Next, cd into the newly created folder, and add the base assignment repository as a remote:
 ```
+cd gp17-'Your_Git_Username'
 git remote add base https://github.com/eth-igl/GP2017-Assignments.git
 ```
-Now you should have your local clone of the assignment repository ready. Have a look at the new repository folder and open the 'README.md'. It contains the text you are just reading. Please fill in your name and student number at the top of this file and save. Then we want stage and commit this changed file:
+Now you should have your local clone of the assignment repository ready. Have a look at the new repository folder and open the 'README.md'. It contains the text you are just reading. Please fill in your name and student number at the top of this file and save. Then you need to stage and commit this changed file:
 ```
 git add README.md
 git commit -m "Adjust README.md"

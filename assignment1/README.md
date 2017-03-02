@@ -1,52 +1,9 @@
-[![Build Status](https://travis-ci.org/NYUGP17/Assignment_1.svg?branch=master)](https://travis-ci.org/NYUGP17/Assignment_1)
+[![Build Status](https://travis-ci.org/eth-igl/GP2017-Assignments.svg?branch=master)](https://travis-ci.org/eth-igl/GP2017-Assignments)
 # Assignment 1
 
-This repository contains the viewer code and data files you'll need for parts
-2-5 of assignment 1.
+## Required results
+3.3) A text dump of the content of the two data structures for the provided mesh “plane.off”.
+4) 3 Screenshots of the 'fandisk.off' model using 'per-face shading', 'per-vertex shading' and 'per-corner shading'
 
-## Getting Started
-To begin, clone the repository:
-```
-git clone https://github.com/NYUGP17/Assignment_1
-```
 
-Next, please refer to the [General Rules and Instructions](https://github.com/danielepanozzo/gp/raw/master/guidelines.pdf)
-handout for instructions on installing LIBIGL and its dependencies.
 
-## Building and Completing the Assignment
-Once LIBIGL is set up (and pointed to by environment variable $LIBIGL_ROOT) you
-should be able to build the viewer code:
-```
-mkdir build && cd build && cmake ..
-make
-```
-Please report any problems you run into on this repository's Issues tab on
-GitHub.
-
-When the build completes successfully, begin implementing the missing blocks in
-src/main.cpp as described by the assignment PDF.
-
-## Submitting
-When you finish the assignment, you will submit it by pushing it to a new
-repository on our NYUGP17 organization.
-
-1. Create a **private** repository in https://github.com/NYUGP17/ called
-   **Assignment1_USER**, where USER is your github username that you entered in
-   the class survey.
-2. Push your code to the repository:
-```
-git push https://github.com/NYUGP17/Assignment1_USER
-```
-
-## Travis-CI
-Every submission must build on Linux before it can be graded/considered
-complete. To check this, you will use Travis-CI, a tool for automatically
-rebuilding your code each time you push it to GitHub.
-
-We've already configured Travis-CI for this repository: Travis-CI works by
-running the script in '.travis.yml' each time new commits are pushed. You will
-need to follow the [getting started
-instructions](https://travis-ci.com/getting_started) to sign into Travis-CI with
-your GitHub account, grant it permission, and enable builds on your private
-assignment repositories. Finally, you need to change the URL at the top of
-this README.md file to point to your repository's status.

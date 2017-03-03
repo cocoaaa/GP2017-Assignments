@@ -7,7 +7,7 @@ Legi-Nr: 'Your legi number'
 
 ## Assignments Overview
 
-[Assignment 1](assignment1/README.md) (Deadline: 16.03.217 23:59)  
+[Assignment 1](assignment1/README.md) (Due date: 17.03.2017 09:00)
 
 ## General Rules and Instructions
 

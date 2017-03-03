@@ -5,6 +5,10 @@
 Name: 'Your real name'  
 Legi-Nr: 'Your legi number'
 
+## News and Changes
+
+03.03.2017 10:40 - Updated cmake options to compile libigl tutorials ([update](#workflow) your private repo if you created it before).
+
 ## Assignments Overview
 
 [Assignment 1](assignment1/README.md) (Due date: 17.03.2017 09:00)
@@ -80,6 +84,7 @@ In general, you should use Git to commit your edits as often as possible. This w
 Every new assignment needs to be pulled from the base repository:
 ```
 git pull base master
+git submodule update
 ```
 
 Every submission must build on Linux before it can be graded/considered complete. To check this, you will use Travis-CI, a tool for automatically rebuilding your code each time you push it to GitHub.

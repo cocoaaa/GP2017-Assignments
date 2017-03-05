@@ -7,7 +7,10 @@ Legi-Nr: 'Your legi number'
 
 ## News and Changes
 
-03.03.2017 10:40 - Updated cmake options to compile libigl tutorials ([update](#workflow) your private repo if you created it before).
+05.03.2017 23:08 - Updated libigl to use newest nanogui and glew which possibly solves issues for some of you.  
+03.03.2017 10:40 - Updated cmake options to compile libigl tutorials (update your private repository if you created it before).
+
+Follow the [instructions](#workflow) to updated your private repository.
 
 ## Assignments Overview
 

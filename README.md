@@ -84,7 +84,14 @@ In general, you should use Git to commit your edits as often as possible. This w
 Every new assignment needs to be pulled from the base repository:
 ```
 git pull base master
-git submodule update
+```
+
+To pull bug fixes or changes you can do the following steps:
+```
+git pull base master
+rm -r libigl
+git submodule sync
+git submodule update --init --recursive
 ```
 
 Every submission must build on Linux before it can be graded/considered complete. To check this, you will use Travis-CI, a tool for automatically rebuilding your code each time you push it to GitHub.

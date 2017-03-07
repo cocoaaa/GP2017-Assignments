@@ -92,10 +92,21 @@ bool callback_key_down(Viewer& viewer, unsigned char key, int modifiers) {
     return true;
 }
 
+bool callback_load_mesh(Viewer& viewer,string filename)
+{
+  igl::readOFF(filename,V,F);
+  viewer.data.clear();
+  viewer.data.set_mesh(V,F);
+  viewer.data.compute_normals();
+  viewer.core.align_camera_position(viewer.data);
+  return true;
+}
+
 int main(int argc, char *argv[]) {
     // Show the mesh
     Viewer viewer;
     viewer.callback_key_down = callback_key_down;
+    viewer.callback_load_mesh = callback_load_mesh;
     
     if (argc == 2)
     {

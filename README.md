@@ -7,6 +7,7 @@ Legi-Nr: 'Your legi number'
 
 ## News and Changes
 
+07.03.2017 12:41 - Updated assignment 1 to fix the load mesh button functionality
 06.03.2017 15:04 - Updated libigl to disable matlab dependency of tutorials.  
 05.03.2017 23:08 - Updated libigl to use newest nanogui and glew which possibly solves issues for some of you.  
 03.03.2017 10:40 - Updated cmake options to compile libigl tutorials (update your private repository if you created it before).

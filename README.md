@@ -7,6 +7,7 @@ Legi-Nr: 'Your legi number'
 
 ## News and Changes
 
+09.03.2017 23:50 - Updated libigl to fix a bug in compiling the tutorials.  
 07.03.2017 12:41 - Updated assignment 1 to fix the load mesh button functionality.  
 06.03.2017 15:04 - Updated libigl to disable matlab dependency of tutorials.  
 05.03.2017 23:08 - Updated libigl to use newest nanogui and glew which possibly solves issues for some of you.  
@@ -16,7 +17,8 @@ Follow the [instructions](#workflow) to updated your private repository.
 
 ## Assignments Overview
 
-[Assignment 1](assignment1/README.md) (Due date: 17.03.2017 09:00)
+[Assignment 1](assignment1/README.md) (Due date: 17.03.2017 09:00)  
+[](assignment2/README.md (Due date: 31.03.2017 09:00))
 
 ## General Rules and Instructions
 

@@ -1,3 +1,5 @@
 [submodule "libigl"]
 	path = libigl
 	url = https://github.com/schuellc/libigl.git
+	fetchRecursiveSubmodules = true
+	ignore = dirty

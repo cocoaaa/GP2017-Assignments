@@ -7,7 +7,7 @@ Legi-Nr: 'Your legi number'
 
 ## News and Changes
 
-10.03.2017 08:50 - Added assignment 2
+10.03.2017 08:50 - Added assignment 2  
 09.03.2017 23:50 - Updated libigl to fix a bug in compiling the tutorials.  
 07.03.2017 12:41 - Updated assignment 1 to fix the load mesh button functionality.  
 06.03.2017 15:04 - Updated libigl to disable matlab dependency of tutorials.  

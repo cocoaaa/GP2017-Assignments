@@ -7,6 +7,7 @@ Legi-Nr: 'Your legi number'
 
 ## News and Changes
 
+21.03.2017 15:16 - Updated to newest Eigen version 3.3.3.  
 14.03.2017 13:17 - Fixed segmentation fault issue.  
 10.03.2017 08:50 - Added assignment 2  
 09.03.2017 23:50 - Updated libigl to fix a bug in compiling the tutorials.  
@@ -19,8 +20,8 @@ Follow the [instructions](#workflow) to updated your private repository.
 
 ## Assignments Overview
 
-[Assignment 1](assignment1/README.md) (Due date: 17.03.2017 09:00)  
-[Assignment 2](assignment2/README.md) (Due date: 31.03.2017 09:00)
+[Assignment 1](assignment1/README.md) (Due date: 17.03.2017 08:00)  
+[Assignment 2](assignment2/README.md) (Due date: 31.03.2017 08:00)
 
 ## General Rules and Instructions
 

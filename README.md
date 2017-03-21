@@ -6,8 +6,7 @@ Name: 'Your real name'
 Legi-Nr: 'Your legi number'
 
 ## News and Changes
-
-21.03.2017 15:16 - Updated to newest Eigen version 3.3.3. (Needs fixing - don't update yet!)  
+ 
 14.03.2017 13:17 - Fixed segmentation fault issue.  
 10.03.2017 08:50 - Added assignment 2  
 09.03.2017 23:50 - Updated libigl to fix a bug in compiling the tutorials.  

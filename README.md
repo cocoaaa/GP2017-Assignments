@@ -7,7 +7,7 @@ Legi-Nr: 'Your legi number'
 
 ## News and Changes
 
-24.03.2017 08:13 - Added assignment 3 
+24.03.2017 08:13 - Added assignment 3   
 14.03.2017 13:17 - Fixed segmentation fault issue.  
 10.03.2017 08:50 - Added assignment 2  
 09.03.2017 23:50 - Updated libigl to fix a bug in compiling the tutorials.  
@@ -22,7 +22,7 @@ Follow the [instructions](#workflow) to updated your private repository.
 
 [Assignment 1](assignment1/README.md) (Due date: 17.03.2017 08:00)  
 [Assignment 2](assignment2/README.md) (Due date: 31.03.2017 08:00)  
-[Assignment 3](assignment3/README.md)
+[Assignment 3](assignment3/README.md) (optional, not graded)
 
 ## General Rules and Instructions
 

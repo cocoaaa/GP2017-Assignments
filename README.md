@@ -7,6 +7,7 @@ Legi-Nr: 'Your legi number'
 
 ## News and Changes
 
+24.03.2017 08:13 - Added assignment 3 
 14.03.2017 13:17 - Fixed segmentation fault issue.  
 10.03.2017 08:50 - Added assignment 2  
 09.03.2017 23:50 - Updated libigl to fix a bug in compiling the tutorials.  

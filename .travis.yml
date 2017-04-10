@@ -28,11 +28,11 @@ matrix:
 #        - cmake -DCMAKE_CXX_COMPILER=g++-4.8 -DCMAKE_C_COMPILER=gcc-4.8 -DTRAVISCI_BUILD=ON ../
 #        - make -j2
 # Assignment 4
-#        - cd ../../assignment4
-#        - mkdir build
-#        - cd build
-#        - cmake -DCMAKE_CXX_COMPILER=g++-4.8 -DCMAKE_C_COMPILER=gcc-4.8 -DTRAVISCI_BUILD=ON ../
-#        - make -j2
+        - cd ../../assignment4
+        - mkdir build
+        - cd build
+        - cmake -DCMAKE_CXX_COMPILER=g++-4.8 -DCMAKE_C_COMPILER=gcc-4.8 -DTRAVISCI_BUILD=ON ../
+	    - make -j2
 # Assignment 5
 #        - cd ../../assignment5
 #        - mkdir build

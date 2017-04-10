@@ -7,6 +7,7 @@ Legi-Nr: 'Your legi number'
 
 ## News and Changes
 
+10.04.2017 17:12 - Added assignment 4 
 05.04.2017 07:54 - Adjusted travis file to compile assignment 2  
 24.03.2017 08:13 - Added assignment 3   
 14.03.2017 13:17 - Fixed segmentation fault issue.  
